@@ -1,29 +1,46 @@
-#include<iostream>
-#include<string>  
+#include <iostream>
+#include <ctime>
 using namespace std;
 
-int main(int argc, char *argv[])
+int main()
 {
-    int a[3][3]={{ 2,4,3},{1,5,7},{0,2,3}};
-    int b[]={2,5,6};
-    int c[3];
-	
-	for (int i=0;i<3;i++){
-         c[i]=0;
-    }
-
-
-	for(int i=0;i<3;i++){
-		for(int j=0;j<3;j++){
-			c[i]+=(a[i][j]*b[j]);
-		}
-	}
-	
-	for (int i=0;i<3;i++){
-         cout<<c[i]<<endl;
-    }
-
-	return 0;
+int rows, columns;
+cout << "Enter the number of rows and columns in the matrix: ";
+cin >> rows >> columns;
+int matrix[rows][columns];
+cout << "Enter the elements of the matrix: " << endl;
+for (int i = 0; i < rows; i++)
+{
+for (int j = 0; j < columns; j++)
+{
+cin >> matrix[i][j];
 }
-
-
+}
+int vector[columns];
+cout << "Enter the elements of the vector: " << endl;
+for (int i = 0; i < columns; i++)
+{
+cin >> vector[i];
+}
+int result[rows];
+for (int i = 0; i < rows; i++)
+{
+result[i] = 0;
+}
+clock_t start = clock();
+for (int i = 0; i < rows; i++)
+{
+for (int j = 0; j < columns; j++)
+{
+result[i] += matrix[i][j] * vector[j];
+}
+}
+clock_t end = clock();
+cout << "The result of the matrix times vector product is: " << endl;
+for (int i = 0; i < rows; i++)
+{
+cout << result[i] << endl;
+}
+cout << "The operation took " << (end - start) / (double)CLOCKS_PER_SEC << " seconds to complete." << endl;
+return 0;
+}
