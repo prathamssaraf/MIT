@@ -1,0 +1,4 @@
+$ hadoop jar /path/to/hadoop-streaming.jar \
+-file /path/to/mapper.py -mapper "python mapper.py" \
+-file /path/to/reducer.py -reducer "python reducer.py" \
+-input /path/to/earthquake.txt -output /path/to/output
