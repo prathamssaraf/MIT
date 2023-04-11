@@ -1,0 +1,6 @@
+﻿  q3.c
+C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 7\q3\q3\q3.c(13,17): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 7\q3\q3\q3.c(13,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 7\q3\q3\q3.c(13,17): message : the missing variadic argument 2 is required by format string '%c'
+C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 7\q3\q3\q3.c(13,17): message : this argument is used as a buffer size
+  q3.vcxproj -> C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 7\q3\x64\Debug\q3.exe

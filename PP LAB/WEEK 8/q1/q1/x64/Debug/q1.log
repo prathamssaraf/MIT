@@ -1,0 +1,5 @@
+﻿  q1.c
+C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 8\q1\q1\q1.c(23,25): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 8\q1\q1\q1.c(24,24): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 8\q1\q1\q1.c(40,25): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 8\q1\q1\q1.c(21,9): error C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.

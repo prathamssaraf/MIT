@@ -1,0 +1,7 @@
+﻿  q4.c
+C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 7\q4\q4\q4.c(14,17): warning C4473: 'scanf_s' : not enough arguments passed for format string
+C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 7\q4\q4\q4.c(14,17): message : placeholders and their parameters expect 2 variadic arguments, but 1 were provided
+C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 7\q4\q4\q4.c(14,17): message : the missing variadic argument 2 is required by format string '%s'
+C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 7\q4\q4\q4.c(14,17): message : this argument is used as a buffer size
+C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 7\q4\q4\q4.c(19,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  q4.vcxproj -> C:\Users\prath\Desktop\MIT-main\PP LAB\WEEK 7\q4\x64\Debug\q4.exe
